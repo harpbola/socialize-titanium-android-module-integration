@@ -6,14 +6,13 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.013671 seconds on emulator to get ready
+[DEBUG] waited 0.094837 seconds on emulator to get ready
 [DEBUG] com.socialize.android.integration installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
 [INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
 [TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/appicon.png => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/appicon.png
 [TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/default.png => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/default.png
-[TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/socialize.properties => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/socialize.properties
 [TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/app.js => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/app.js
 [TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/KS_nav_ui.png => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/KS_nav_ui.png
 [TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/KS_nav_views.png => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/KS_nav_views.png
@@ -59,7 +58,6 @@ Logfile initialized
 [DEBUG] from resource zip => assets/Resources/app.js
 [DEBUG] from resource zip => assets/Resources/appicon.png
 [DEBUG] from resource zip => assets/Resources/default.png
-[DEBUG] from resource zip => assets/Resources/socialize.properties
 [DEBUG] from resource zip => assets/tiapp.xml
 [DEBUG] from resource zip => res/drawable/appicon.png
 [DEBUG] from resource zip => res/drawable/background.png
@@ -229,9 +227,5 @@ Logfile initialized
 [DEBUG] Waiting for device to be ready ...
 [TRACE] adb devices returned 1 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.013976 seconds on emulator to get ready
+[DEBUG] waited 0.014038 seconds on emulator to get ready
 [INFO] Installing application on device
-[INFO] Launching application ... socialize-android-module-integration
-[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.socialize.android.integration/.SocializeAndroidModuleIntegrationActivity }
-
-[INFO] Deployed socialize-android-module-integration ... Application should be running.
