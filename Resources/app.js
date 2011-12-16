@@ -4,20 +4,8 @@ Titanium.UI.setBackgroundColor('#000');
 // create tab group
 var tabGroup = Titanium.UI.createTabGroup();
 
-
-// TODO: write your module tests here
 var socialize = require('com.socialize');
 Ti.API.info("module is => " + socialize);
-
-label.text = socialize.example();
-
-Ti.API.info("module exampleProp is => " + socialize.exampleProp);
-socialize.exampleProp = "This is a test value";
-
-if (Ti.Platform.name == "android") {
-	var proxy = socialize.createExample({message: "Creating an example Proxy"});
-	proxy.printMessage("Hello world!");
-}
 
 //
 // create base UI tab and root window
@@ -66,6 +54,10 @@ var label2 = Titanium.UI.createLabel({
 win2.add(label2);
 
 
+if (Ti.Platform.name == "android") {
+	var actionBar = socialize.createActionBar("http://www.getsocialize.com");
+	win2.add(actionBar);
+}
 
 //
 //  add tabs
