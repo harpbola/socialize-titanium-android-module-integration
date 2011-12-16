@@ -1,0 +1,21 @@
+Logfile initialized
+[INFO] logfile = C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build.log
+[DEBUG] C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\builder.py simulator socialize-android-module-integration C:\Program Files (x86)\Android\android-sdk C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration com.socialize.android.integration 7 HVGA
+[INFO] Building socialize-android-module-integration for Android ... one moment
+[INFO] Titanium SDK version: 1.7.5 (11/02/11 17:00 ab20af7)
+[DEBUG] Waiting for device to be ready ...
+[TRACE] adb devices returned 1 devices/emulators
+[DEBUG] Device connected... (waited 0 seconds)
+[DEBUG] waited 0.014000 seconds on emulator to get ready
+[DEBUG] com.socialize.android.integration installed? True
+[INFO] Fastdev server running, deploying in Fastdev mode
+[INFO] Copying project resources..
+[TRACE] COPYING MODIFIED FILE: C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\Resources\app.js => C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\bin\assets\Resources\app.js
+[INFO] Tiapp.xml unchanged, skipping class generation
+[DEBUG] Processing Android resource drawables
+[INFO] Waiting for SDCard to become available..
+[INFO] Re-launching application ... socialize-android-module-integration
+[INFO] Launching application ... socialize-android-module-integration
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.socialize.android.integration/.SocializeAndroidModuleIntegrationActivity }
+Warning: Activity not started, its current task has been brought to the front
+
