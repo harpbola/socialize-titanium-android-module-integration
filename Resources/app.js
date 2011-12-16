@@ -55,6 +55,8 @@ win2.add(label2);
 
 
 if (Ti.Platform.name == "android") {
+	socialize.consumerKey="12a05e3e-e522-4c81-b4bb-89d3be94d122";
+	socialize.consumerSecret="9c313d12-f34c-4172-9909-180384c724fd";
 	var actionBar = socialize.createActionBar("http://www.getsocialize.com");
 	win2.add(actionBar);
 }
