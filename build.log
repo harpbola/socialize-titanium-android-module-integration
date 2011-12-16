@@ -229,3 +229,7 @@ Logfile initialized
 [DEBUG] Device connected... (waited 0 seconds)
 [DEBUG] waited 0.014038 seconds on emulator to get ready
 [INFO] Installing application on device
+[INFO] Launching application ... socialize-android-module-integration
+[TRACE] Launch output: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.socialize.android.integration/.SocializeAndroidModuleIntegrationActivity }
+
+[INFO] Deployed socialize-android-module-integration ... Application should be running.
