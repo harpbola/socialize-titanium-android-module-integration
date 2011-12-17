@@ -1,58 +1,38 @@
 Logfile initialized
-[INFO] logfile = /Users/jasonpolites/socialize-titanium-android-module-integration/build.log
-[DEBUG] /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/builder.py simulator socialize-android-module-integration /android /Users/jasonpolites/socialize-titanium-android-module-integration com.socialize.android.integration 2 HVGA 
+[INFO] logfile = C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build.log
+[DEBUG] C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\builder.py simulator socialize-android-module-integration C:\Program Files (x86)\Android\android-sdk C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration com.socialize.android.integration 7 HVGA
 [INFO] Building socialize-android-module-integration for Android ... one moment
 [INFO] Titanium SDK version: 1.7.5 (11/02/11 17:00 ab20af7)
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.094837 seconds on emulator to get ready
+[DEBUG] waited 0.013000 seconds on emulator to get ready
 [DEBUG] com.socialize.android.integration installed? True
 [INFO] Fastdev server running, deploying in Fastdev mode
 [INFO] Copying project resources..
 [INFO] Detected tiapp.xml change (or assets deleted), forcing full re-build...
-[TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/appicon.png => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/appicon.png
-[TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/default.png => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/default.png
-[TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/app.js => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/app.js
-[TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/KS_nav_ui.png => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/KS_nav_ui.png
-[TRACE] COPYING CREATED FILE: /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/KS_nav_views.png => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/KS_nav_views.png
+[TRACE] COPYING CREATED FILE: C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\Resources\android\appicon.png => C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\bin\assets\Resources\appicon.png
+[TRACE] COPYING CREATED FILE: C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\Resources\android\default.png => C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\bin\assets\Resources\default.png
+[TRACE] COPYING CREATED FILE: C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\Resources\app.js => C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\bin\assets\Resources\app.js
+[TRACE] COPYING CREATED FILE: C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\Resources\KS_nav_ui.png => C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\bin\assets\Resources\KS_nav_ui.png
+[TRACE] COPYING CREATED FILE: C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\Resources\KS_nav_views.png => C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\bin\assets\Resources\KS_nav_views.png
 [TRACE] Generating Java Classes
 [DEBUG] Processing Android resource drawables
-[DEBUG] app stylesheet => /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/ApplicationStylesheet.java
-[DEBUG] copying app icon: /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/appicon.png
+[DEBUG] app stylesheet => C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\gen\com\socialize\android\integration\ApplicationStylesheet.java
+[DEBUG] copying app icon: C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\bin\assets\Resources\appicon.png
 [DEBUG] generating theme.xml
-[DEBUG] found drawable-long-land-hdpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-long-land-hdpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-long-land-hdpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-long-land-hdpi/background.png
-[DEBUG] found drawable-long-land-ldpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-long-land-ldpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-long-land-ldpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-long-land-ldpi/background.png
-[DEBUG] found drawable-long-port-hdpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-long-port-hdpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-long-port-hdpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-long-port-hdpi/background.png
-[DEBUG] found drawable-long-port-ldpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-long-port-ldpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-long-port-ldpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-long-port-ldpi/background.png
-[DEBUG] found drawable-notlong-land-hdpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-land-hdpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-land-hdpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-notlong-land-hdpi/background.png
-[DEBUG] found drawable-notlong-land-ldpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-land-ldpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-land-ldpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-notlong-land-ldpi/background.png
-[DEBUG] found drawable-notlong-land-mdpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-land-mdpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-land-mdpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-notlong-land-mdpi/background.png
-[DEBUG] found drawable-notlong-port-hdpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-port-hdpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-port-hdpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-notlong-port-hdpi/background.png
-[DEBUG] found drawable-notlong-port-ldpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-port-ldpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-port-ldpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-notlong-port-ldpi/background.png
-[DEBUG] found drawable-notlong-port-mdpi splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-port-mdpi/default.png
-[DEBUG] copying /Users/jasonpolites/socialize-titanium-android-module-integration/Resources/android/images/res-notlong-port-mdpi/default.png splash screen to /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/res/drawable-notlong-port-mdpi/background.png
-[DEBUG] found splash screen at /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/assets/Resources/default.png
+[DEBUG] found splash screen at C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\bin\assets\Resources\default.png
 [TRACE] Writing out AndroidManifest.xml
-[DEBUG] adding /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/ApplicationStylesheet.java to javac build list
-[DEBUG] adding /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/R.java to javac build list
-[DEBUG] adding /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/SocializeAndroidModuleIntegrationActivity.java to javac build list
-[DEBUG] adding /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/SocializeAndroidModuleIntegrationAppInfo.java to javac build list
-[DEBUG] adding /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/SocializeAndroidModuleIntegrationApplication.java to javac build list
-[DEBUG] Building Java Sources: "/Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/ApplicationStylesheet.java" "/Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/R.java" "/Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/SocializeAndroidModuleIntegrationActivity.java" "/Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/SocializeAndroidModuleIntegrationAppInfo.java" "/Users/jasonpolites/socialize-titanium-android-module-integration/build/android/gen/com/socialize/android/integration/SocializeAndroidModuleIntegrationApplication.java"
+[DEBUG] adding C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\gen\com\socialize\android\integration\ApplicationStylesheet.java to javac build list
+[DEBUG] adding C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\gen\com\socialize\android\integration\R.java to javac build list
+[DEBUG] adding C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\gen\com\socialize\android\integration\SocializeAndroidModuleIntegrationActivity.java to javac build list
+[DEBUG] adding C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\gen\com\socialize\android\integration\SocializeAndroidModuleIntegrationAppInfo.java to javac build list
+[DEBUG] adding C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\gen\com\socialize\android\integration\SocializeAndroidModuleIntegrationApplication.java to javac build list
+[DEBUG] Building Java Sources: "C:\\Users\\Harp\\Desktop\\Sites\\Eclipse-for-Titanium\\socialize-android-module-integration\\build\\android\\gen\\com\\socialize\\android\\integration\\ApplicationStylesheet.java" "C:\\Users\\Harp\\Desktop\\Sites\\Eclipse-for-Titanium\\socialize-android-module-integration\\build\\android\\gen\\com\\socialize\\android\\integration\\R.java" "C:\\Users\\Harp\\Desktop\\Sites\\Eclipse-for-Titanium\\socialize-android-module-integration\\build\\android\\gen\\com\\socialize\\android\\integration\\SocializeAndroidModuleIntegrationActivity.java" "C:\\Users\\Harp\\Desktop\\Sites\\Eclipse-for-Titanium\\socialize-android-module-integration\\build\\android\\gen\\com\\socialize\\android\\integration\\SocializeAndroidModuleIntegrationAppInfo.java" "C:\\Users\\Harp\\Desktop\\Sites\\Eclipse-for-Titanium\\socialize-android-module-integration\\build\\android\\gen\\com\\socialize\\android\\integration\\SocializeAndroidModuleIntegrationApplication.java"
 [INFO] Waiting for SDCard to become available..
 [INFO] Compiling Android Resources... This could take some time
 [DEBUG] Android classes.dex built
-[DEBUG] creating unsigned apk: /Users/jasonpolites/socialize-titanium-android-module-integration/build/android/bin/app-unsigned.apk
+[DEBUG] creating unsigned apk: C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\build\android\bin\app-unsigned.apk
 [DEBUG] from resource zip => assets/Resources/KS_nav_ui.png
 [DEBUG] from resource zip => assets/Resources/KS_nav_views.png
 [DEBUG] from resource zip => assets/Resources/app.js
@@ -73,159 +53,156 @@ Logfile initialized
 [DEBUG] from resource zip => resources.arsc
 [DEBUG] from resource zip => res/drawable-hdpi/facebook_icon.png
 [DEBUG] from resource zip => res/drawable-ldpi/facebook_icon.png
-[DEBUG] from resource zip => res/drawable-long-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-long-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-long-port-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-long-port-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-land-mdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-hdpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-ldpi/background.png
-[DEBUG] from resource zip => res/drawable-notlong-port-mdpi/background.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/action_bar_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/action_bar_button_hi.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/camera.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/crosshatch.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/default_user_icon.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/edit_overlay.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/email_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/fb_cross.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/action_bar_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/action_bar_button_hi.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/checkbox_bg.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/close.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/divider.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/email_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/facebook_icon.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/fb_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/fb_cross.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/header.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/ic_menu_cc.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/ic_menu_refresh.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_comment.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_facebook.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_facebook_disabled.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_like.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_like_hi.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_location.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_location_disabled.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_location_pin.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_share.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/icon_view.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/post_icon.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/sms_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/socialize_icon_gray.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/socialize_icon_white.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/socialize_logo.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/toolbar_bg.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/hdpi/toolbar_close.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ic_menu_cc.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/icon_comment.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/icon_like.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/icon_like_hi.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/icon_share.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/icon_view.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/large_user_icon.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/action_bar_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/action_bar_button_hi.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/ad_bar_bg.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/checkbox_bg.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/close.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/divider.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/email_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/fb_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/fb_cross.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/header.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/ic_menu_cc.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/ic_menu_refresh.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_comment.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_facebook.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_facebook_disabled.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_like.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_like_hi.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_location.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_location_disabled.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_location_pin.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_share.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/icon_view.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/post_icon.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/sms_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/socialize_icon_gray.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/socialize_icon_white.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/ldpi/socialize_logo.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/action_bar_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/action_bar_button_hi.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/checkbox_bg.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/close.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/divider.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/email_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/facebook_icon.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/fb_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/header.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/ic_menu_cc.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/ic_menu_refresh.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_comment.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_facebook.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_facebook_disabled.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_like.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_like_hi.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_location.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_location_disabled.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_location_pin.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_share.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/icon_view.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/post_icon.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/sms_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/socialize_icon_gray.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/socialize_icon_white.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/socialize_logo.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/toolbar_bg.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/mdpi/toolbar_close.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/slate.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/text_bg.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/toolbar_bg.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/toolbar_close.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/close.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/default_user_icon.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/fb_button.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/header.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/icon_comment.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/icon_like.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/icon_like_hi.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/icon_view.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/post_icon.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/socialize_icon_gray.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => res/drawable/xhdpi/socialize_icon_white.png
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => socialize.errors.properties
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => socialize.properties
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => socialize_beans.xml
-[DEBUG] from JAR /Users/jasonpolites/socialize-titanium-android-module-integration/modules/android/com.socialize/0.1/lib/socialize-1.1.3.jar => socialize_ui_beans.xml
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/apache/Commons-NOTICE.txt
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/apache/HttpComponents-NOTICE.txt
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/apache/mime4j-NOTICE.txt
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/build.properties
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/background.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-yahoo.jar => ti/modules/titanium/yahoo/yahoo.js
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/smalljs.jar => org/mozilla/javascript/resources/Messages.properties
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
-[DEBUG] from JAR /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/modules/titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/action_bar_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/action_bar_button_hi.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/camera.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/crosshatch.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/default_user_icon.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/edit_overlay.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/email_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/fb_cross.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/action_bar_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/action_bar_button_hi.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/arrow.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/checkbox_bg.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/close.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/divider.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/email_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/facebook_icon.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/fb_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/fb_cross.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/header.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/ic_menu_cc.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/ic_menu_preferences.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/ic_menu_refresh.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_comment.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_facebook.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_facebook_disabled.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_gear.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_like.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_like_hi.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_location.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_location_disabled.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_location_pin.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_share.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/icon_view.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/post_icon.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/sms_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/socialize_icon_gray.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/socialize_icon_white.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/socialize_logo.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/toolbar_bg.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/hdpi/toolbar_close.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ic_menu_cc.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/icon_comment.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/icon_like.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/icon_like_hi.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/icon_share.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/icon_view.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/large_user_icon.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/action_bar_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/action_bar_button_hi.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/ad_bar_bg.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/checkbox_bg.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/close.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/divider.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/email_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/fb_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/fb_cross.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/header.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/ic_menu_cc.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/ic_menu_preferences.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/ic_menu_refresh.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_comment.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_facebook.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_facebook_disabled.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_like.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_like_hi.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_location.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_location_disabled.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_location_pin.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_share.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/icon_view.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/post_icon.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/sms_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/socialize_icon_gray.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/socialize_icon_white.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/ldpi/socialize_logo.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/action_bar_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/action_bar_button_hi.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/arrow.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/checkbox_bg.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/close.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/divider.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/email_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/facebook_icon.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/fb_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/header.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/ic_menu_cc.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/ic_menu_preferences.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/ic_menu_refresh.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_comment.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_facebook.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_facebook_disabled.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_gear.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_like.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_like_hi.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_location.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_location_disabled.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_location_pin.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_share.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/icon_view.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/post_icon.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/sms_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/socialize_icon_gray.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/socialize_icon_white.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/socialize_logo.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/toolbar_bg.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/mdpi/toolbar_close.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/slate.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/text_bg.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/toolbar_bg.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/toolbar_close.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/close.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/default_user_icon.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/fb_button.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/header.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/icon_comment.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/icon_like.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/icon_like_hi.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/icon_view.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/post_icon.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/socialize_icon_gray.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => res/drawable/xhdpi/socialize_icon_white.png
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => socialize.errors.properties
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => socialize.properties
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => socialize_beans.xml
+[DEBUG] from JAR C:\Users\Harp\Desktop\Sites\Eclipse-for-Titanium\socialize-android-module-integration\modules\android\com.socialize\0.1\lib\socialize-1.2.jar => socialize_ui_beans.xml
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\smalljs.jar => org/mozilla/javascript/resources/Messages.properties
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\smalljs.jar => org/mozilla/javascript/resources/Messages_fr.properties
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-ui.jar => ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/apache/Commons-NOTICE.txt
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/apache/HttpComponents-NOTICE.txt
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/apache/mime4j-NOTICE.txt
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/build.properties
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/background.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_18.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_18.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\titanium.jar => org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-yahoo.jar => ti/modules/titanium/yahoo/yahoo.js
+[DEBUG] from JAR C:\Users\Harp\AppData\Roaming\Titanium\mobilesdk\win32\1.7.5\android\modules\titanium-facebook.jar => ti/modules/titanium/facebook/LICENSE
 [DEBUG] Waiting for device to be ready ...
-[TRACE] adb devices returned 1 devices/emulators
+[TRACE] adb devices returned 2 devices/emulators
 [DEBUG] Device connected... (waited 0 seconds)
-[DEBUG] waited 0.014038 seconds on emulator to get ready
+[DEBUG] waited 0.014000 seconds on emulator to get ready
 [INFO] Installing application on device
