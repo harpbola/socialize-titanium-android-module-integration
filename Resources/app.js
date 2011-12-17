@@ -28,7 +28,7 @@ var label1 = Titanium.UI.createLabel({
 	width:'auto'
 });
 
-win1.add(label1);
+
 
 //
 // create controls tab and root window
@@ -51,13 +51,15 @@ var label2 = Titanium.UI.createLabel({
 	width:'auto'
 });
 
-
 if (Ti.Platform.name == "android") {
 	socialize.setSocializeCredentials("12a05e3e-e522-4c81-b4bb-89d3be94d122", "9c313d12-f34c-4172-9909-180384c724fd");
-	var actionBar = socialize.showActionBar(label2, "http://www.getsocialize.com");
-	win2.add(actionBar);
+	var actionBar1 = socialize.showActionBar(label1, "http://www.getsocialize.com");
+	var actionBar2 = socialize.showActionBar(label2, "http://getsocialize.com");
+	win1.add(actionBar1);
+	win2.add(actionBar2);
 }
 else {
+	win1.add(label1);
 	win2.add(label2);
 }
 
