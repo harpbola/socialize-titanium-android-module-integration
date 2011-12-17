@@ -1,5 +1,8 @@
 Logfile initialized
 [INFO] logfile = /Users/jasonpolites/socialize-titanium-android-module-integration/build.log
+
+
+
 [DEBUG] /Users/jasonpolites/Library/Application Support/Titanium/mobilesdk/osx/1.7.5/android/builder.py install socialize-android-module-integration /android /Users/jasonpolites/socialize-titanium-android-module-integration com.socialize.android.integration 2
 [INFO] Titanium SDK version: 1.7.5 (11/02/11 17:00 ab20af7)
 [DEBUG] Waiting for device to be ready ...
