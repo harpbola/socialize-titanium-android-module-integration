@@ -53,16 +53,13 @@ var label2 = Titanium.UI.createLabel({
 
 if (Ti.Platform.name == "android") {
 	socialize.setSocializeCredentials("12a05e3e-e522-4c81-b4bb-89d3be94d122", "9c313d12-f34c-4172-9909-180384c724fd");
-<<<<<<< HEAD
+	socialize.setFacebookAppId("209798315709193");
+	
 	var actionBar1 = socialize.showActionBar(label1, "http://www.getsocialize.com");
 	var actionBar2 = socialize.showActionBar(label2, "http://getsocialize.com");
+	
 	win1.add(actionBar1);
 	win2.add(actionBar2);
-=======
-	socialize.setFacebookAppId("209798315709193");
-	var actionBar = socialize.showActionBar(label2, "http://www.getsocialize.com");
-	win2.add(actionBar);
->>>>>>> e13882ae49788880f589547da003bc5668093f8f
 }
 else {
 	win1.add(label1);
@@ -75,7 +72,5 @@ else {
 tabGroup.addTab(tab1);  
 tabGroup.addTab(tab2);  
 
-
 // open tab group
 tabGroup.open();
-
